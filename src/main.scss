@@ -1,0 +1,152 @@
+@media screen and (max-width: 768px) {
+  .main-text-on-img {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  .involvedText {
+    font-size: 22px !important;
+    margin-bottom: 25px;
+    text-align: justify;
+    width: 345px;
+    height: 220px;
+  }
+
+  .header-crew {
+    font-size: 50px !important;
+  }
+}
+
+.navbar {
+  background-color: #00af66;
+  display: flex;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-header {
+  font-size: 1.2em;
+}
+
+.nav li:hover {
+  opacity: 0.6;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-lang {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.dropdown-label {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.arrow-nav {
+  top: calc(50% - 11px);
+  width: 15px;
+  transform: rotate(90deg);
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+.flag-nav {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.img-fluid {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.main-text-on-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  filter: contrast(80);
+}
+
+.btn-on-main-img {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 10px 70px;
+  font-size: 32px;
+  color: #fff;
+  background-color: #28d358;
+  font-weight: bold;
+}
+.crew-section {
+  padding: 50px 0px 200px 0px;
+  background: linear-gradient(
+    180deg,
+    rgb(53, 72, 94) 50%,
+    rgb(55, 98, 145) 100%
+  );
+}
+
+.header-crew {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px;
+  font-family: Arial;
+  font-style: normal;
+  color: #8e8e8e;
+}
+
+.involvedText {
+  font-family: Arial;
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: justify;
+  border: 3px solid;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #000;
+  background-color: #313131;
+}
+
+.crew-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.crew-img {
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+
+.card-title {
+  font-family: Arial;
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+}
+
+.crew-cards-btn {
+  color: #fff;
+  background-color: #4760a2;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+}
